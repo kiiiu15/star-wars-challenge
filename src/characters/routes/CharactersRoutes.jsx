@@ -7,7 +7,7 @@ export const CharactersRoutes = () => {
   return (
     <>
 
-      <div className='container'>
+      <div className='container' style={{height: "100%"}}>
         <Routes>
 
           <Route path='/character/:id' element={<CharacterPage/>}/>
